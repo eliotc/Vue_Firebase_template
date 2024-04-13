@@ -75,11 +75,11 @@ Click on the link to visit the github repo to fork 👇🏾`,
 </script>
 
 <style scoped>
->>> .CreatorPreview {
+.CreatorPreview {
   @apply bg-gray-900 shadow-lg !important;
 }
 
->>> .CreatorPreview--Avatar {
+.CreatorPreview--Avatar {
   @apply h-20 w-20 !important;
 }
 </style>

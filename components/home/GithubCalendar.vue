@@ -23,15 +23,15 @@ export default {
 </script>
 
 <style scoped>
->>> rect.ContributionCalendar-day[data-level='0'] {
+rect.ContributionCalendar-day[data-level='0'] {
   @apply fill-current text-gray-900;
 }
 
->>> rect.ContributionCalendar-day[data-level='1'] {
+ rect.ContributionCalendar-day[data-level='1'] {
   fill: rgb(14, 68, 41);
 }
 
->>> rect.ContributionCalendar-day[data-level='2'] {
+ rect.ContributionCalendar-day[data-level='2'] {
   fill: rgb(0, 109, 50);
 }
 

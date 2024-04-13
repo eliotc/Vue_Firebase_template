@@ -1,13 +1,23 @@
 <template>
   <div>
     <TheNavBar/>
-    <Nuxt />
-    <TheFooter />
+    <Nuxt/>
+    <TheFooter/>
+    <BlogCard/>
   </div>
 </template>
 
 <script>
+import TheNavBar from '~/components/TheNavBar.vue'; // Adjust the path as necessary
+import TheFooter from '~/components/TheFooter.vue'; // Adjust the path as necessary
+import BlogCard from '~/components/blog/BlogCard.vue'; // Adjust the path as necessary
+
+
 export default {
+  components: {
+    TheNavBar, // Register TheNavBar component
+    TheFooter  // Register TheFooter component
+  }
 }
 </script>
 
@@ -109,8 +119,3 @@ html {
   transform: rotate(12deg);
 }
 </style>
-<script>
-
-export default {
-}
-</script>

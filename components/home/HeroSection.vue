@@ -59,14 +59,14 @@ export default {
 </script>
 
 <style scoped>
->>> .vue-typer .custom.char {
+.vue-typer .custom.char {
   @apply text-indigo-600;
 }
->>> .vue-typer .custom.char.selected {
+ .vue-typer .custom.char.selected {
   @apply bg-indigo-600 text-white;
 }
 
->>> .vue-typer .custom.caret {
+ .vue-typer .custom.caret {
   width: 5px;
   @apply bg-indigo-600;
 }
