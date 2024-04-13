@@ -10,8 +10,8 @@ export default {
     id: ''
   },
   plausibleAnalytics: {
-    enabled: true,
-    domain: 'template.karngyan.com',
+    enabled: false,
+    domain: 'to be added',
     trackLocalhost: false,
     // leave it empty if plausible is not self hosted
     apiHost: 'https://analytics.lookatx.dev' // default: https://plausible.io
